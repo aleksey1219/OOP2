@@ -37,13 +37,9 @@ public class Bicycle implements Update {
 
     @Override
     public void checkEngine() {
-        System.out.println("Проверяем двигатель");
-
     }
 
     @Override
     public void checkTrailer() {
-        System.out.println("Проверяем прицеп");
-
     }
 }
