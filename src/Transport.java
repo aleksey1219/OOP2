@@ -1,4 +1,4 @@
-public class Transport  {
+public abstract class Transport implements Service {
     private String modelName;
     private int wheelsCount;
 
@@ -30,15 +30,8 @@ public class Transport  {
                 ", wheelsCount=" + wheelsCount +
                 '}';
     }
-    public void updateTyre(){
+
+    public void updateTyre() {
         System.out.println("Меняем покрышку");
-    }
-
-    public void checkEngine() {
-        System.out.println("Проверяем двигатель");
-    }
-
-    public void checkTrailer() {
-        System.out.println("Проверяем прицеп");
     }
 }
